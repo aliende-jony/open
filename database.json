@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Adidas Adizero sl ",
+        "price": 54.999,
+        "image":"https://www.digitalsport.com.ar/files/products/63c7356c2462c-590477-280x280.jpg"
+    },
+    {
+        "name":"Nike Air-max",
+        "price": 40.799,
+        "image":"https://falabella.scene7.com/is/image/Falabella/6578791_1"
+    },
+    {
+        "name":"Puma Bmw Mms X-Ray Speed",
+        "price": 34.899,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6F87_v_JL8wyeNobqhUOURwqjVJ4AX1UiEw&usqp=CAU"
+    },
+    {
+        "name":"Adidas Supernova 2",
+        "price": 47.999,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI4x0dX4QlNKx5XNW2AEkfjJ4wA4TarVV5Ug&usqp=CAU"
+    },
+    {
+        "name":"Zapatillas Under Armour Hovr Infinite Summit 2",
+        "price": 40.999,
+        "image":"https://cdn.idealo.com/folder/Product/201516/3/201516311/s11_produktbild_gross_2/under-armour-ua-hovr-infinite-summit-2-3023633.jpg"
+    }
+]

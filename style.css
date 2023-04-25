@@ -1,0 +1,257 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: white;
+    background-color: #D12127;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header-top{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em 3em 0 4em;
+}
+.visitop{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.lista{
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+    list-style: none;
+}
+.lista li .list{
+    color: white;
+    text-decoration: none;
+}
+ a.list:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem 1.5rem 5rem;
+}
+.content-imagen{
+    width: 180px;
+    height: 36px;
+}
+.lupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.lupa input{
+    background-color: #ffffff;
+    width: 15em;
+    height: 2em;
+    border: none;
+}
+.bi-cart{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.header-nav{
+    font-size: 16PX;
+    font-weight: 700;
+    color: #575757;
+    background-color: #ffffff;
+    padding: 1rem 4.5rem 0 2rem;
+}
+.header-nav ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.header-bottom{
+    padding: 0.6rem 6rem 0.7rem 6rem;
+    color:#ffffff;
+    font-size: 18px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom strong{
+    font-weight: 700;
+}
+.header-bottom .ver{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.7rem;
+}
+.carrusel{
+    padding: 1rem 3rem 1rem 3rem;
+}
+.carousel-inner{
+    transition: 0.1s;
+}
+.novedades{
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nov{
+    font-size: 2.5rem;
+}
+.productos{
+    width: 100%;
+    padding: 0 3rem;
+    display: flex;
+    gap: 3rem;
+}
+.calzado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.imgCalzado{
+    width: 220px;
+    height: 200px;
+}
+footer{
+    width: 100%;
+    background-color:#191919;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; 
+}
+.ofertas{
+    display: flex;
+    align-items: center;
+    padding: 2.3em 2em;
+}
+.sales{
+    
+    font-size: 18px;
+    font-weight: 600;
+}
+.enviar-btn{
+    
+    background-color:#ffffff;
+    font-size: 18px;
+    font-weight:600 ;
+    width: 8em;
+    height: 2em;
+    margin-left: 2em;
+    border: none;
+    border-radius: 3px;
+}
+.susc{
+    text-decoration: none;
+    color:#191919;
+}
+.informacion{
+    display: flex;
+    background-color: #F0F0F0;
+    width: 100%;
+}
+.info{
+    color: #ffffff;
+    padding: 2em 2em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.inf a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333333;
+}
+.inf a:hover{
+    text-decoration: underline;
+}
+.contac{
+    color: #ffffff;
+    padding: 2em 3em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.contac a{
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #333333;
+}
+.contac a:hover{
+    text-decoration: underline;
+}
+.redes{
+    padding: 1em;
+    color:#333333;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+
+
+
+
+@media(max-width: 992px){
+    
+    .header-top{
+        width: 70%;
+    }
+    .lista{
+        display: none;
+    }
+    .header-nav{
+        display: none;
+    }
+    
+    .lupa{
+        display: none;
+    }
+    .bi-cart{
+        visibility: visible;
+    }
+    .productos{
+        display: flex;
+        flex-direction: column;
+    }
+    .informacion{
+        display: flex;
+        flex-direction: column;    }
+}
+
+
